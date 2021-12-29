@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:title="HOME"
+        android:id="@+id/home"
+    />
+    <item android:title="LATEST UPDATES"
+        android:id="@+id/updates"
+        />
+    <item android:id="@+id/events"
+        android:title="EVENTS"
+        />
+    <item
+        android:id="@+id/login"
+        android:title="MEMBER LOGIN" />
+
+    <item android:id="@+id/details"
+        android:title="MEMBER DETAILS"
+        />
+    <item android:id="@+id/aboutus"
+        android:title="ABOUT US"
+        />
+    <item android:id="@+id/con"
+        android:title="CONTACT"
+        />
+    <item android:id="@+id/signout"
+        android:title="SIGN OUT"
+        />
+
+</menu>

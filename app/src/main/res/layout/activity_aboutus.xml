@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="net.scimatics.Scimatics.Aboutus"
+android:background="@drawable/background3"
+android:id="@+id/draw">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="10sp"
+    android:layout_marginRight="10sp"    >
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:textColor="#F00323"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A new college life can have a lot of twists and turns, and without guidance the road can be really bumpy. But you need not worry. We, at L.E.A.D. are here to help you. Taking over SCIMATICS which stood for a fusion of Science+Mathematics, we tend to promote logical, innovative and technical learning.
+
+Dexterous in coding, web development, android app development, designing, electronic, robotic and many more.... Guiding you through each and every concept our workshops tend to loosen your fear towards technical terms. We promote new, innovative and strenuous project on science. Once you are a part of L.E.A.D, it’s our responsibility that you master your area of interest. Paving you the way towards your true potential"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#03046B"/>
+</LinearLayout>
+</ScrollView>
+    <android.support.design.widget.NavigationView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    app:menu="@menu/navigation_menu"
+    android:layout_gravity="start"
+    android:id="@+id/nav">
+
+</android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

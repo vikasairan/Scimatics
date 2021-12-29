@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "121641016810",
+    "firebase_url": "https://scimatics-37d00.firebaseio.com",
+    "project_id": "scimatics-37d00",
+    "storage_bucket": "scimatics-37d00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121641016810:android:aa3ba7d01ab495a3",
+        "android_client_info": {
+          "package_name": "net.scimatics.Scimatics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121641016810-jcb9r8usrjvgviakvog7hhmo5m2hku4o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.scimatics.Scimatics",
+            "certificate_hash": "3e51ffc6d04028039a76c28b1d89b5aeebbffaec"
+          }
+        },
+        {
+          "client_id": "121641016810-nve30e3p7qtj2m88dang00q0btij0gf6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY4a0YOsu-yPzYmkqRnssBsYSG-TEu5IY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121641016810-nve30e3p7qtj2m88dang00q0btij0gf6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
